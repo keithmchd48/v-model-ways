@@ -2,6 +2,8 @@
 
 Sourced from: [Dev Blog](https://dev.to/vcpablo/vuejs-2-different-ways-to-implement-v-model-1mjf)
 
+Hosted here: https://v-model-different-ways.netlify.app/
+
 
 
 
