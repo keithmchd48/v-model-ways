@@ -1,4 +1,4 @@
-# VueJS - Different ways to implement v-model
+# VueJS - Different ways to implement v-model (Vue 3)
 
 Sourced from: [Dev Blog](https://dev.to/vcpablo/vuejs-2-different-ways-to-implement-v-model-1mjf)
 
