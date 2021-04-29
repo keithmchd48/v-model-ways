@@ -1,12 +1,12 @@
 <template>
-  <input type="text" :value="value" @input="onInput" />
+  <input type="text" :value="modelValue" @input="onInput" />
 </template>
 
 <script>
 export default {
   name: "CustomMethod",
   props: {
-    value: {
+    modelValue: {
       type: String,
       default: "",
     },
@@ -14,7 +14,7 @@ export default {
   methods: {
     onInput(event) {
       // const val = event.target.value;
-      this.$emit("input", event);
+      this.$emit("update:modelValue", event.target.value);
     },
   },
 };

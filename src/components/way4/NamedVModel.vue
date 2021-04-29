@@ -7,12 +7,12 @@ export default {
   props: {
     text: {
       type: String,
-      default: "",
+      value: "",
     },
   },
   methods: {
-    onInput(value) {
-      this.$emit("update:text", value.target.value);
+    onInput(event) {
+      this.$emit("update:text", event.target.value);
     },
   },
 };

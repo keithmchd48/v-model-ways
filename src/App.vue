@@ -15,19 +15,9 @@
     {{ text3 }}
   </div>
   <div>
-    4. Custom Prop And Event
-    <CustomPropAndEvent v-model="text4"></CustomPropAndEvent>
-    {{ text4 }}
-  </div>
-  <div>
-    5. Named v-model
+    4. Named v-model
     <NamedVModel v-model:text="text5"></NamedVModel>
     {{ text5 }}
-  </div>
-  <div>
-    6. Sync Modifier
-    <SyncModifier v-model:text="text6"></SyncModifier>
-    {{ text6 }}
   </div>
 </template>
 
@@ -35,9 +25,7 @@
 import LocalVariableWatcher from "@/components/way1/LocalVariableWatcher";
 import CustomMethod from "@/components/way2/CustomMethod";
 import PowerfulComputedProperty from "@/components/way3/PowerfulComputedProperty";
-import CustomPropAndEvent from "@/components/way4/CustomPropAndEvent";
-import NamedVModel from "@/components/way5/NamedVModel";
-import SyncModifier from "@/components/way6/SyncModifier";
+import NamedVModel from "@/components/way4/NamedVModel";
 
 export default {
   name: "App",
@@ -45,9 +33,7 @@ export default {
     LocalVariableWatcher,
     CustomMethod,
     PowerfulComputedProperty,
-    CustomPropAndEvent,
     NamedVModel,
-    SyncModifier,
   },
   data() {
     return {
